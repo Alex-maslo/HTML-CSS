@@ -1,0 +1,19 @@
+* {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkolivegreen;
+    gap: 20px;
+}
+
+.container__box {
+
+    /*width: 1/6fr;*/
+    min-width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: rgba(255, 255, 255, 0.6);
+}
