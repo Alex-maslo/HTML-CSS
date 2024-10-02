@@ -10,6 +10,17 @@
     font-size: 20px;
 }
 
+.roboto-bold {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
 
 .container {
     padding: 50px;
