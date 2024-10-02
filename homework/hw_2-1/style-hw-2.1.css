@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+.container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+    padding: 15px;
+}
+
+.container__card img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
