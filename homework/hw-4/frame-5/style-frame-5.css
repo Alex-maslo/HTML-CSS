@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, serif;
+}
+
+header {
+  height: 5vh;
+  background: #d9d9d9;
+}
+
+main {
+  display: flex;
+  height: 73vh;
+}
+
+.left {
+  background: #a4a4a4;
+  width: 60vw;
+}
+
+.right {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  background: #7f7a7a;
+  height: 54%;
+}
+
+.second {
+  background: #615050;
+  height: 46%;
+}
+
+.third {
+  background: #d9d9d9;
+  height: 10vh;
+}
+
+footer {
+  height: 12vh;
+  width: 100%;
+  background: #afa9a9;
+}

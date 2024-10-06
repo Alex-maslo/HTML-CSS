@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, serif;
+}
+
+header {
+  height: 5vh;
+  background: #d9d9d9;
+}
+
+main {
+  display: flex;
+  height: 85vh;
+}
+
+.section-first {
+  width: 28vw;
+  height: 100%;
+  background: #a4a4a4;
+}
+
+.section-second {
+  width: 31vw;
+  height: 100%;
+  background: #c1c1c1;
+}
+
+.section-third {
+  width: 41vw;
+}
+
+.section-third__box-1 {
+  height: 50%;
+  background: #7f7a7a;
+}
+
+.section-third__box-2 {
+  height: 50%;
+  background: #6b6161;
+}
+
+footer {
+  height: 10vh;
+  background: #d9d9d9;
+}
