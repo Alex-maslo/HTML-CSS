@@ -5,5 +5,43 @@
     <title>hw-6.2</title>
     <link href="style-hw-6.2.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <form class="login-container">
+        <img
+          alt="Instagram"
+          class="logo"
+          src="../task-2/img/640px-Instagram_logo.svg.png"
+        />
+
+        <label for="user-login"></label>
+        <input
+          id="user-login"
+          name="user-login"
+          placeholder="Номер телефону, ім'я користувача або e-mail"
+          type="text"
+        />
+
+        <label for="user-password"></label>
+        <input id="user-password" name="user-password" type="password" />
+        <button class="form-submit-button" type="submit">Увійти</button>
+        <div class="separator">АБО</div>
+
+        <button class="facebook-login" type="button">
+          <img
+            alt="facebook"
+            src="../task-2/img/480px-2023_Facebook_icon.svg.png"
+          />
+          Увійти через Facebook
+        </button>
+
+        <a class="forgot-password" href="#">Забули пароль?</a>
+      </form>
+      <div class="registration">
+        <div class="signup-link">
+          <p>Не маєте облікового запису? <a href="#">Зареєструйтеся</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

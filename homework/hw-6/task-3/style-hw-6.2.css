@@ -7,3 +7,106 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-container {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 5vw;
+  border: 1px solid darkgray;
+}
+
+.logo {
+  display: block;
+  width: 50%;
+  object-fit: contain;
+  margin-bottom: 5vh;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.form-submit-button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  background-color: #3897f0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.separator {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+
+.separator::before,
+.separator::after {
+  display: inline-block;
+  margin: 20px;
+  content: "-";
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: #385185;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.facebook-login img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #00376b;
+  font-size: 16px;
+}
+
+.registration {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vh;
+  border: 1px solid darkgray;
+}
+
+.signup-link a {
+  color: #3897f0;
+  text-decoration: none;
+  font-weight: 600;
+}
