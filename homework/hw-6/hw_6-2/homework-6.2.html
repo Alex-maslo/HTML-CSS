@@ -3,12 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <title>hw-6.2</title>
-    <link rel="stylesheet" href="style-hw-6.2.css" />
+    <link href="style-hw-6.2.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="wrapper">
-      <form action="">
-        <h3></h3>
+    <div class="login-wrapper">
+      <form action="#" class="login-form">
+        <h3 class="login-title">Вхід в особистий кабінет</h3>
+
+        <div class="form-body">
+          <div class="login-data">
+            <label for="user-name"></label>
+            <input
+              id="user-name"
+              name="user-name"
+              placeholder="Логін або email"
+              type="text"
+            />
+
+            <label for="user-password"></label>
+            <input
+              id="user-password"
+              name="user-password"
+              placeholder="Пароль"
+              type="password"
+            />
+          </div>
+          <div class="form-body-bottom">
+            <div class="remember-data">
+              <label for="remember-data">Запам'ятати мене</label>
+              <input id="remember-data" name="remember" type="checkbox" />
+            </div>
+            <button type="submit">Вхід</button>
+          </div>
+        </div>
       </form>
     </div>
   </body>

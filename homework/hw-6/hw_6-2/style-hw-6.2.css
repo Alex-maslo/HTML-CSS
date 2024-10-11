@@ -8,17 +8,65 @@
   font-style: normal;
 }
 
-.wrapper {
+.login-wrapper {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #008b8b;
+  background-color: #4d898b;
 }
 
-form {
+.login-form {
   width: 40vw;
-  height: 30vh;
+  /*height: 34%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: white;
+  border-radius: 15px;
+}
+
+.login-title {
+  width: 100%;
+  text-align: center;
+  padding: 3vw 0;
+  background-color: #e3e5e6;
+  font-weight: 400;
+  font-size: 2rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.form-body {
+  padding: 1vh 5vw 2vh 5vw;
+}
+
+.login-data {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-data input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #aeafb2;
+}
+
+.form-body-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vh 0 15vh 0;
+}
+
+.form-body-bottom label {
+  font-size: 1.2rem;
+}
+
+.form-body-bottom button {
+  padding: 5px 30px;
+  border: 1px solid #aeafb2;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
