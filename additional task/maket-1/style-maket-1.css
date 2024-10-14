@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+}
+
+.header__nav {
+  width: 100%;
+  height: 132px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
+  list-style: none;
+}
+
+.header__item {
+  /* Стили для элемента списка li */
+}
+
+.header__link {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.header__logo {
+  /* Стили для логотипа img */
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  padding: 0 12%;
+  background: #fbf6f3;
+}
+
+.main-image {
+  width: 581px;
+  height: 653px;
+}
+
+.content {
+  display: flex;
+}
