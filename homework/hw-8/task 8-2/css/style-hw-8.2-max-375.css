@@ -1,0 +1,23 @@
+@media screen and (max-width: 375px) {
+  .wrapper {
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 32px 16px;
+    height: auto;
+  }
+
+  .content-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-box h3 {
+    margin: 16px 0 0 0;
+    color: #161543;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+}

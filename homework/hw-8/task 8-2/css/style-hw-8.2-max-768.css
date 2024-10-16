@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .wrapper {
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 48px 24px;
+    /*height: auto;*/
+  }
+
+  .content-box {
+    min-width: 247px;
+    flex-grow: 1;
+  }
+}
